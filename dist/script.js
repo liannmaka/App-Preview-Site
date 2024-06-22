@@ -17,7 +17,7 @@ closeMenuBtn.addEventListener("click", () => {
 let isScrolling = false;
 let scrollTimeout;
 
-// Function to handle active class on click
+
 links.forEach(link => {
     link.addEventListener("click", (e) => {
         e.preventDefault(); 
@@ -44,7 +44,7 @@ links.forEach(link => {
     });
 });
 
-// Function to handle active class on scroll
+
 window.addEventListener("scroll", () => {
     if (isScrolling) return;
 
