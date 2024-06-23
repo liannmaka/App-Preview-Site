@@ -92,7 +92,7 @@ nav li a {
 main section.hero {
   position: relative;
   overflow: hidden;
-  height: 420px;
+  height: 100vh;
 }
 main section.hero .hero__wrapper {
   position: absolute;
@@ -119,7 +119,7 @@ main section.hero .container {
   text-align: center;
   position: relative;
   z-index: 10;
-  padding-top: 4.5rem;
+  padding-top: 17rem;
   padding-bottom: 2rem;
 }
 main section.hero .container .left__col p {
@@ -150,7 +150,7 @@ main section.hero .container .left__col .hero__cta {
 }
 main section.hero .container .left__col .watch__video {
   display: block;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #000;
   text-decoration: underline;
 }
@@ -297,7 +297,7 @@ header.sticky #open__menu {
     color: #fff;
   }
   main section.hero .container {
-    padding-top: 6rem;
+    padding-top: 25rem;
   }
   main section.hero .container .left__col h1 {
     font-size: 2.6rem;
@@ -305,6 +305,11 @@ header.sticky #open__menu {
   main section.Feature ul {
     display: grid;
     grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main section.hero .container {
+    padding-top: 13rem;
   }
 }
 @media only screen and (min-width: 1070px) {
@@ -332,9 +337,6 @@ header.sticky #open__menu {
   }
   header.navigation .go__premium__cta a {
     margin-left: 1.5rem;
-  }
-  main section.hero {
-    height: 668px;
   }
   main section.hero .container {
     padding-top: 11rem;

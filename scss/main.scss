@@ -110,7 +110,7 @@ main {
         section.hero {
             position: relative;
             overflow: hidden;
-            height: 420px; 
+            height: 100vh; 
             .hero__wrapper {
                 position: absolute;
                 width: 100%;
@@ -136,7 +136,7 @@ main {
                 text-align: center;
                 position: relative;
                 z-index: 10;
-                padding-top: 4.5rem;
+                padding-top: 17rem;
                 padding-bottom: 2rem;
                 .left__col {
                     p {
@@ -170,7 +170,7 @@ main {
         
                     .watch__video {
                         display: block;
-                        margin-top: 1rem;
+                        margin-top: 2rem;
                         color: #000;
                         text-decoration: underline;
         
@@ -358,7 +358,7 @@ header.sticky {
     main {
         section.hero { 
             .container {
-                padding-top: 6rem;
+                padding-top: 25rem;
                 .left__col {
                     h1 {
                         font-size: 2.6rem;
@@ -375,6 +375,18 @@ header.sticky {
             }
         }
     }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    main {
+        section.hero { 
+            .container {
+                padding-top: 13rem;
+            }
+        }
+    }
+
 }
 
 @media only screen and (min-width: 1070px) {
@@ -418,7 +430,6 @@ header.sticky {
 
     main {
         section.hero {
-            height: 668px; 
             .container {
                 padding-top: 11rem;
                 .left__col {
