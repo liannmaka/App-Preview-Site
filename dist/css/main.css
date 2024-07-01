@@ -304,7 +304,7 @@ header.sticky #open__menu {
   }
   main section.Feature ul {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 @media only screen and (min-width: 1024px) {
